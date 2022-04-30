@@ -85,11 +85,13 @@
     <Compile Include="Assets\Scripts\Priority Queue\IFixedSizePriorityQueue.cs" />
     <Compile Include="Assets\LookAtBehavior.cs" />
     <Compile Include="Assets\Scripts\Priority Queue\IPriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\TasksStates\ParallelTask.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\RecoverAction.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\AlignmentBehavior.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\WanderBehavior.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\Condiction.cs" />
     <Compile Include="Assets\PursueBehavior.cs" />
+    <Compile Include="Assets\Scripts\TasksStates\UntilFailDecorator.cs" />
     <Compile Include="Assets\Scripts\Priority Queue\FastPriorityQueueNode.cs" />
     <Compile Include="Assets\Scripts\TasksStates\MoveAction.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\PatrolAction.cs" />
@@ -104,6 +106,7 @@
     <Compile Include="Assets\PathFollowingBehavior.cs" />
     <Compile Include="Assets\Scripts\TasksStates\DoorBarge.cs" />
     <Compile Include="Assets\Scripts\FStateMachine\FiniteStateMachine.cs" />
+    <Compile Include="Assets\Scripts\TasksStates\Decorator.cs" />
     <Compile Include="Assets\Scripts\TasksStates\Selector.cs" />
     <Compile Include="Assets\SteeringBehaviorBase.cs" />
     <Compile Include="Assets\Scripts\Priority Queue\Properties\AssemblyInfo.cs" />
@@ -112,9 +115,6 @@
     <Compile Include="Assets\Scripts\FStateMachine\RecoreEnergyAction.cs" />
     <Compile Include="Assets\PathLine.cs" />
     <Compile Include="Assets\Scripts\Pathfinding.cs" />
-    <Compile Include="Assets\Scripts\TasksStates\Decorator.cs" />
-    <Compile Include="Assets\Scripts\TasksStates\UntilFailDecorator.cs" />
-    <Compile Include="Assets\Scripts\TasksStates\ParallelTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
